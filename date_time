@@ -1,0 +1,7 @@
+#date and time
+from datetime import date
+a=date(2004,12,7)
+b=date(2026,5,23)
+diff=(b-a)
+print("No of days he lived:", diff.days)
+print("Total seconds:", diff.total_seconds())
