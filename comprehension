@@ -1,0 +1,4 @@
+
+a="sudhakar is good boy and he is very intelligent"
+b="".join([i for i in a if i in 'aeiou'])
+print(b)
